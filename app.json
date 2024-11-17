@@ -1,0 +1,29 @@
+{
+    "garbageData": [
+      {
+        "id": 1,
+        "name": "Plastic Bottles",
+        "image": "https://i.pinimg.com/736x/f7/18/15/f7181569f1f650ff3955858c23112b9c.jpg",
+        "type": "Plastic",
+        "location": { "lat": 8.360725, "lng": 124.868230 },
+        "indexHtml": "index.html?id=1"
+      },
+      {
+        "id": 2,
+        "name": "Cardboard",
+        "image": "https://i.pinimg.com/736x/f7/18/15/f7181569f1f650ff3955858c23112b9c.jpg",
+        "type": "Paper",
+        "location": { "lat": 8.359950, "lng": 124.867952 },
+        "indexHtml": "index.html?id=2"
+      },
+      {
+        "id": 3,
+        "name": "Cans",
+        "image": "https://i.pinimg.com/736x/f7/18/15/f7181569f1f650ff3955858c23112b9c.jpg",
+        "type": "Metal",
+        "location": { "lat": 8.359621, "lng": 124.868628 },
+        "indexHtml": "index.html?id=3"
+      }
+    ]
+  }
+  
