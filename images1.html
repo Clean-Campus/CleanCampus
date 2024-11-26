@@ -13,7 +13,7 @@
             font-family: 'Poppins', sans-serif;
             margin-top: 56px;
             color: #333;
-            background-color: #f0f0f0; /* Light grey background */
+            background-color: #f0f0f0; 
         }
         .navbar {
             background-color: #003366;
@@ -37,26 +37,52 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin-bottom: 30px;
         }
+        .content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+
+        /* Transition effect for smooth changes */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Hover effect for the image */
+    .content img:hover {
+        transform: scale(1.05); /* Slight zoom-in effect */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    }
         .description {
             margin-top: 20px;
         }
-        .description-item {
-            margin: 10px 0;
-            font-size: 1.1rem;
-            color: #333;
+        /* Custom styles for the description cards */
+        .description-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+            height: 100%;
         }
-        .description-item:nth-child(1) {
-            color: #0056b3;
-            font-weight: 600;
+        .description-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
         }
-        .description-item:nth-child(2) {
-            color: #e63946;
-            font-style: italic;
+        .description-card strong {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: #003366;
         }
-        .description-item:nth-child(3) {
-            color: #2a9d8f;
-            text-decoration: underline;
+
+        /* Specific hover effect for Biodegradable */
+        .description-card:nth-child(1):hover {
+            background-color: #d4edda; /* Light green background */
         }
+
         footer {
             background-color: #003366;
             color: #fff;
@@ -76,13 +102,15 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Clean Campus</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                           data-bs-toggle="dropdown" aria-expanded="false">
                             Menu
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -97,13 +125,27 @@
         </div>
     </nav>
 
-    <!-- Content Section -->
-    <div class="content">
-        <img src="https://via.placeholder.com/600x400" alt="Clean Campus">
-        <div class="description">
-            <p class="description-item">Our campus is clean and green, fostering a healthy environment.</p>
-            <p class="description-item">Join us in our mission to promote sustainability and care for nature.</p>
-            <p class="description-item">Together, we can maintain a beautiful and eco-friendly campus!</p>
+    <div class="content container">
+        <img src="./images/images1.jpg" alt="Clean Campus">
+        <div class="description row">
+            <div class="col-md-4 d-flex">
+                <div class="description-card">
+                    <strong>Biodegradable</strong>
+                    <p>Items that decompose naturally, such as food scraps and paper, supporting eco-friendly waste management.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="description-card">
+                    <strong>Non-biodegradable</strong>
+                    <p>Products like plastics and metals that don't easily break down, requiring proper disposal methods.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="description-card">
+                    <strong>Recycle</strong>
+                    <p>The process of converting waste into reusable materials, reducing landfill contributions and saving resources.</p>
+                </div>
+            </div>
         </div>
     </div>
 
