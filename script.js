@@ -21,7 +21,7 @@ class LeafletMap {
     }).addTo(this.map);
   }
 
-  addMarker(lat, lng, message, imageUrl, id) {
+  addMarker(lat, lng, message, imageUrl, id, htmlLink) {
     const marker = L.marker([lat, lng]).addTo(this.map);
     marker.bindPopup(message);
 
@@ -29,14 +29,15 @@ class LeafletMap {
       marker.bindPopup(`<img src="${imageUrl}" alt="${message}" style="width: 100px; height: auto;" />`);
       marker.openPopup();
     });
-
     marker.on('dblclick', () => {
       const infoDiv = document.createElement('div');
-      infoDiv.innerHTML = ` 
+      infoDiv.innerHTML = `
         <p>Details for ${message}:</p>
         <p>ID: ${id}</p>
         <img src="${imageUrl}" alt="${message}" style="width: 150px; height: auto; display: block; margin-top: 5px;">
-        <button onclick="window.location.href='images1.html?id=${id}'" class="btn btn-primary more-details-btn" style="margin-top: 10px;">Open Image</button>
+        <div style="text-align: center; margin-top: 10px;">
+          <button onclick="window.location.href='${htmlLink}'" class="btn btn-primary more-details-btn">More Details</button>
+        </div>
       `;
       marker.bindPopup(infoDiv).openPopup();
     });
@@ -52,7 +53,8 @@ class LeafletMap {
             item.location.lng, 
             item.name, 
             item.image, 
-            item.id
+            item.id,
+            item.htmlLink 
           );
         });
       })
