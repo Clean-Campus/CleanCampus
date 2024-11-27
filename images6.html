@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin-top: 56px;
-            color: #333;
-            background-color: #f0f0f0; 
-        }
+        body {  
+    font-family: 'Poppins', sans-serif;
+    margin-top: 56px;
+    color: #333;
+    background: linear-gradient(135deg, #87cefa 0%, #003366 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
         .navbar {
             background-color: #003366;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -25,6 +27,20 @@
         }
         .navbar-brand:hover {
             color: #ffc107;
+        }
+        .navbar-nav .dropdown-menu {
+            right: 0;
+            left: auto;
+            margin-right: 15px;
+            text-align: center;
+        }
+        .navbar-nav .dropdown-menu a {
+            font-size: 1rem;
+            color: #003366;
+        }
+        .navbar-nav .dropdown-menu a:hover {
+            background-color: #ffc107;
+            color: #fff;
         }
         .content {
             text-align: center;
@@ -44,19 +60,18 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         margin-bottom: 30px;
 
-        /* Transition effect for smooth changes */
+        
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    /* Hover effect for the image */
     .content img:hover {
-        transform: scale(1.05); /* Slight zoom-in effect */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+        transform: scale(1.05); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
     }
         .description {
             margin-top: 20px;
         }
-        /* Custom styles for the description cards */
+       
         .description-card {
             background-color: #fff;
             border: 1px solid #ddd;
@@ -78,9 +93,8 @@
             color: #003366;
         }
 
-        /* Specific hover effect for Biodegradable */
         .description-card:nth-child(1):hover {
-            background-color: #d4edda; /* Light green background */
+            background-color: #d4edda; 
         }
 
         footer {
@@ -116,8 +130,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="index.html">Home</a></li>
                             <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
-                            <li><a class="dropdown-item" href="product.html">Products</a></li>
+                            
                         </ul>
                     </li>
                 </ul>
@@ -126,7 +139,7 @@
     </nav>
 
     <div class="content container">
-        <img src="./images/images1.jpg" alt="Clean Campus">
+        <img src="./images/images6.jpg" alt="Clean Campus">
         <div class="description row">
             <div class="col-md-4 d-flex">
                 <div class="description-card">
