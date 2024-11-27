@@ -5,7 +5,7 @@
       "name": "Garbage Bin 1",
       "image": "./images/images1.jpg",
       "type": "Trash Can",
-      "location": { "lat": 8.360725, "lng": 124.868230 },
+      "location": { "lat": 8.359422, "lng": 124.868630 },
       "htmlLink": "images1.html"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Garbage Bin 2",
       "image": "./images/images2.jpg",
       "type": "Paper",
-      "location": { "lat": 8.359950, "lng": 124.867952 },
+      "location": { "lat": 8.359476, "lng": 124.869135 },
       "htmlLink": "images2.html"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Garbage Bin 3",
       "image": "./images/images3.jpg",
       "type": "Metal",
-      "location": { "lat": 8.359621, "lng": 124.868628 },
+      "location": { "lat": 8.359417, "lng": 124.869108 },
       "htmlLink": "images3.html"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Garbage Bin 4",
       "image": "./images/images4.jpg",
       "type": "Plastic",
-      "location": { "lat": 8.361000, "lng": 124.869000 },
+      "location": { "lat": 8.358849, "lng": 124.869043 },
       "htmlLink": "images4.html"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Garbage Bin 5",
       "image": "./images/images5.jpg",
       "type": "Glass",
-      "location": { "lat": 8.360500, "lng": 124.870500 },
+      "location": { "lat": 8.360192, "lng": 124.869000 },
       "htmlLink": "images5.html"
     },
     {
@@ -45,7 +45,7 @@
       "name": "Garbage Bin 6",
       "image": "./images/images6.jpg",
       "type": "Wood",
-      "location": { "lat": 8.362000, "lng": 124.871000 },
+      "location": { "lat": 8.359332, "lng": 124.868565 },
       "htmlLink": "images6.html"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Garbage Bin 7",
       "image": "./images/images7.jpg",
       "type": "Organic",
-      "location": { "lat": 8.363000, "lng": 124.872000 },
+      "location": { "lat": 8.359056, "lng": 124.868662 },
       "htmlLink": "images7.html"
     },
     {
@@ -61,7 +61,7 @@
       "name": "Garbage Bin 8",
       "image": "./images/images8.jpg",
       "type": "Plastic",
-      "location": { "lat": 8.364000, "lng": 124.873000 },
+      "location": { "lat": 8.359353, "lng": 124.868437 },
       "htmlLink": "images8.html"
     },
     {
@@ -69,7 +69,7 @@
       "name": "Garbage Bin 9",
       "image": "./images/images9.jpg",
       "type": "Metal",
-      "location": { "lat": 8.365000, "lng": 124.874000 },
+      "location": { "lat": 8.360171, "lng": 124.867551 },
       "htmlLink": "images9.html"
     },
     {
@@ -77,7 +77,7 @@
       "name": "Garbage Bin 10",
       "image": "./images/images10.jpg",
       "type": "Electronic",
-      "location": { "lat": 8.366000, "lng": 124.875000 },
+      "location": { "lat": 8.360293, "lng": 124.867588 },
       "htmlLink": "images10.html"
     }
   ]
