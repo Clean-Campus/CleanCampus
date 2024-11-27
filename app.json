@@ -6,7 +6,8 @@
       "image": "./images/images1.jpg",
       "type": "Trash Can",
       "location": { "lat": 8.359422, "lng": 124.868630 },
-      "htmlLink": "images1.html"
+      "htmlLink": "images1.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]   
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "image": "./images/images2.jpg",
       "type": "Paper",
       "location": { "lat": 8.359476, "lng": 124.869135 },
-      "htmlLink": "images2.html"
+      "htmlLink": "images2.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "image": "./images/images3.jpg",
       "type": "Metal",
       "location": { "lat": 8.359417, "lng": 124.869108 },
-      "htmlLink": "images3.html"
+      "htmlLink": "images3.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "image": "./images/images4.jpg",
       "type": "Plastic",
       "location": { "lat": 8.358849, "lng": 124.869043 },
-      "htmlLink": "images4.html"
+      "htmlLink": "images4.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "image": "./images/images5.jpg",
       "type": "Glass",
       "location": { "lat": 8.360192, "lng": 124.869000 },
-      "htmlLink": "images5.html"
+      "htmlLink": "images5.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "image": "./images/images6.jpg",
       "type": "Wood",
       "location": { "lat": 8.359332, "lng": 124.868565 },
-      "htmlLink": "images6.html"
+      "htmlLink": "images6.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "image": "./images/images7.jpg",
       "type": "Organic",
       "location": { "lat": 8.359056, "lng": 124.868662 },
-      "htmlLink": "images7.html"
+      "htmlLink": "images7.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "image": "./images/images8.jpg",
       "type": "Plastic",
       "location": { "lat": 8.359353, "lng": 124.868437 },
-      "htmlLink": "images8.html"
+      "htmlLink": "images8.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "image": "./images/images9.jpg",
       "type": "Metal",
       "location": { "lat": 8.360171, "lng": 124.867551 },
-      "htmlLink": "images9.html"
+      "htmlLink": "images9.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "image": "./images/images10.jpg",
       "type": "Electronic",
       "location": { "lat": 8.360293, "lng": 124.867588 },
-      "htmlLink": "images10.html"
+      "htmlLink": "images10.html",
+      "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]
     }
   ]
 }
