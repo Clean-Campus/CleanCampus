@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Campus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        body {  
+    font-family: 'Poppins', sans-serif;
+    margin-top: 56px;
+    color: #333;
+    background: linear-gradient(135deg, #87cefa 0%, #003366 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+        .navbar {
+            background-color: #003366;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff;
+        }
+        .navbar-brand:hover {
+            color: #ffc107;
+        }
+        .navbar-nav .dropdown-menu {
+            right: 0;
+            left: auto;
+            margin-right: 15px;
+            text-align: center;
+        }
+        .navbar-nav .dropdown-menu a {
+            font-size: 1rem;
+            color: #003366;
+        }
+        .navbar-nav .dropdown-menu a:hover {
+            background-color: #ffc107;
+            color: #fff;
+        }
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+        }
+        .content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+
+        
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .content img:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    }
+        .description {
+            margin-top: 20px;
+        }
+       
+        .description-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+            height: 100%;
+        }
+        .description-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        .description-card strong {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: #003366;
+        }
+
+        .description-card:nth-child(1):hover {
+            background-color: #d4edda; 
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Clean Campus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content container">
+        <img src="./images/images8.jpg" alt="Clean Campus">
+        <div class="description row">
+            <div class="col-md-4 d-flex">
+                <div class="description-card">
+                    <strong>Biodegradable</strong>
+                    <p>Items that decompose naturally, such as food scraps and paper, supporting eco-friendly waste management.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="description-card">
+                    <strong>Non-biodegradable</strong>
+                    <p>Products like plastics and metals that don't easily break down, requiring proper disposal methods.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="description-card">
+                    <strong>Recycle</strong>
+                    <p>The process of converting waste into reusable materials, reducing landfill contributions and saving resources.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Northern Bukidnon State College. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
