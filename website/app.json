@@ -6,7 +6,7 @@
       "image": "./images/images1.jpg",
       "type": "Trash Can",
       "location": { "lat": 8.359422, "lng": 124.868630 },
-      "htmlLink": ".images1.html",
+      "htmlLink": "images1.html",
       "categories": ["Biodegradable", "Non-Biodegradable", "Recycle"]   
     },
     {
